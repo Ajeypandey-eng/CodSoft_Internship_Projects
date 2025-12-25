@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+# Exclude large csv if needed, but Churn_Modelling is small (<1MB)
+# Churn_Modelling.csv

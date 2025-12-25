@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+train_data.txt
+test_data.txt
+test_data_solution.txt

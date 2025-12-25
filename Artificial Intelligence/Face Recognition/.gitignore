@@ -1,0 +1,4 @@
+known_faces/
+unknown_faces/
+__pycache__/
+*.py[cod]

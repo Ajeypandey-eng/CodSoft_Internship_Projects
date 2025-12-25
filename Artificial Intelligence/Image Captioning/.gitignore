@@ -1,0 +1,11 @@
+# Dataset
+Images/
+captions.txt
+
+# Generated Files
+features.pkl
+caption_model.h5
+
+# Python
+__pycache__/
+*.py[cod]
