@@ -28,4 +28,4 @@ To run a specific project:
 3.  Run the main script (instructions in the project's README).
 
 ---
-*Created by [Your Name] for CodSoft Internship.*
+*Created by Ajey for CodSoft Internship.*
