@@ -4,20 +4,23 @@ This repository features a collection of projects focused on **Cognitive Computi
 
 ## 📂 Project Directory
 
-### 🧠 Language & Semantic Understanding (NLP)
-1.  **[Image Captioning](./Artificial%20Intelligence/Image%20Captioning/)**: A multimodal system combining **VGG16 and LSTM** to perceive visual content and generate human-like descriptive natural language.
-2.  **[Movie Genre Classification](./Machine%20Learning/Movie%20Genre%20Classification/)**: An NLP-driven reasoning model that analyzes semantic themes in plot summaries to categorize cinematic genres using **TF-IDF Vectorization**.
-3.  **[SMS Spam Detection](./Machine%20Learning/Spam%20SMS%20Detection/)**: A text-classification engine using **Naive Bayes** to identify and filter linguistic patterns associated with fraudulent messaging.
+### 🧠 [Artificial Intelligence](./Artificial%20Intelligence/)
+*Projects focusing on visual perception and strategic decision-making.*
+1. **[Image Captioning](./Artificial%20Intelligence/Image%20Captioning/)**: A multimodal system combining **VGG16 and LSTM** to perceive visual content and generate human-like descriptive natural language.
+2. **[Face Recognition](./Artificial%20Intelligence/Face%20Recognition/)**: A real-time biometric perception system leveraging **DeepFace** (VGG-Face/Facenet) for high-accuracy human identity verification.
+3. **[Tic-Tac-Toe AI](./Artificial%20Intelligence/Tic%20Tac%20Toe%20AI/)**: A decision-making agent using the **Minimax algorithm** to simulate strategic human reasoning and optimal game-play.
 
-### 👁️ Visual Intelligence & Perception
-1.  **[Face Recognition](./Artificial%20Intelligence/Face%20Recognition/)**: A real-time biometric perception system leveraging **DeepFace** (VGG-Face/Facenet) for high-accuracy human identity verification and facial feature analysis.
-2.  **[Tic-Tac-Toe AI](./Artificial%20Intelligence/Tic%20Tac%20Toe%20AI/)**: A decision-making agent using the **Minimax algorithm** to simulate strategic human reasoning and optimal game-play through recursive state-space exploration.
+### 🤖 [Machine Learning](./Machine%20Learning/)
+*Projects focusing on behavioral forecasting and linguistic pattern recognition.*
+1. **[Customer Churn Prediction](./Machine%20Learning/Customer%20Churn%20Prediction/)**: A behavioral analysis model using **Gradient Boosting** to forecast customer attrition and assist in retention decision-making.
+2. **[Movie Genre Classification](./Machine%20Learning/Movie%20Genre%20Classification/)**: An NLP-driven reasoning model that analyzes semantic themes in plot summaries to categorize cinematic genres using **TF-IDF**.
+3. **[SMS Spam Detection](./Machine%20Learning/Spam%20SMS%20Detection/)**: A text-classification engine using **Naive Bayes** to identify and filter linguistic patterns associated with fraudulent messaging.
 
-### 📊 Advanced Predictive Modeling & Reasoning
-1.  **[Customer Churn Prediction](./Machine%20Learning/Customer%20Churn%20Prediction/)**: A behavioral analysis model using **Gradient Boosting** to forecast customer attrition and assist in retention decision-making.
-2.  **[Credit Card Fraud Detection](./Machine%20Learning/Credit%20Card%20Problem/)**: An anomaly detection system utilizing **SMOTE** (for class imbalance) and **Random Forest** to recognize cognitive patterns of fraudulent financial behavior.
-3.  **[Sales Prediction](./Data%20Science/Sales%20Prediction/)**: A regression-based forecasting model that predicts revenue trends by analyzing the impact of multi-channel advertising spend.
-4.  **[Titanic Survival Prediction](./Data%20Science/Titanic%20Problem/)**: A classification project exploring historical data to reason through the socio-economic factors that influenced survival probabilities.
+### 📊 [Data Science](./Data%20Science/)
+*Projects focusing on statistical reasoning and anomaly detection.*
+1. **[Titanic Survival Prediction](./Data%20Science/Titanic%20Problem/)**: A classification project exploring historical data to reason through the socio-economic factors that influenced survival probabilities.
+2. **[Sales Prediction](./Data%20Science/Sales%20Prediction/)**: A regression-based forecasting model that predicts revenue trends by analyzing the impact of multi-channel advertising spend.
+3. **[Credit Card Fraud Detection](./Data%20Science/Credit%20Card%20Problem/)**: An anomaly detection system utilizing **SMOTE** and **Random Forest** to recognize cognitive patterns of fraudulent financial behavior.
 
 ---
 
@@ -46,11 +49,6 @@ The system utilizes a hybrid neural network architecture:
 * **The Encoder (VGG16)**: A pre-trained Convolutional Neural Network (CNN) that "sees" the image. It extracts complex mathematical features from the pixels, effectively acting as the model's visual cortex.
 * **The Decoder (LSTM)**: A Long Short-Term Memory network that "speaks." It takes the visual features and generates a sequence of words, one by one, using stateful memory to ensure the sentence is grammatically coherent.
 
-### Key Learnings
-* **Feature Extraction**: Learning how to strip the final classification layer of a CNN to use it as a feature vector.
-* **Sequence Modeling**: Managing variable-length text data and word embeddings.
-* **Multimodal Fusion**: Merging two distinct types of data (spatial/images and sequential/text) into a single learning pipeline.
-
 ---
 
 ## 🚀 Getting Started
@@ -70,7 +68,10 @@ The system utilizes a hybrid neural network architecture:
     ```
 
 ### Execution
-Navigate to any specific project folder to find a dedicated `README.md` with execution details for that specific cognitive model. For example:
+Navigate to any specific project folder to find a dedicated `README.md` with execution details. For example:
 ```bash
 cd "Artificial Intelligence/Face Recognition"
 python main.py
+
+
+Created by Ajey Pandey | Dedicated to exploring the intersection of human cognition and machine intelligence.
